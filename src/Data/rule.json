@@ -1,0 +1,74 @@
+{
+    "Rule":[
+        {
+			"ID":"1",
+            "Name":"Tir Rapide",
+            "Description":"Les armes avec [Tir Rapide X] dans leur profil sont connues comme des armes à Tir Rapide. Chaque fois qu'une telle arme cible une unité qui est à la moitié de la portée de l'arme, la caractéristique d'Attaques de cette arme est augmentée du montant indiqué par 'x'."
+        },
+        {
+			"ID":"2",
+            "Name":"Pistolet",
+            "Description":"Les armes avec [Pistolet] dans leur profil sont connues comme des Pistolets. Si une unité contient des modèles équipés de Pistolets, cette unité est éligible pour tirer lors de la phase de Tir du joueur qui la contrôle, même si elle se trouve à portée d'Engagement d'une ou de plusieurs unités ennemies. Lorsqu'une telle unité est sélectionnée pour tirer, elle ne peut résoudre des attaques qu'avec ses Pistolets et ne peut cibler qu'une des unités ennemies avec lesquelles elle est à portée d'Engagement. Dans de telles circonstances, un Pistolet peut cibler une unité ennemie même si d'autres unités amies se trouvent à portée d'Engagement de la même unité ennemie.\n\nSi un modèle est équipé d'un ou de plusieurs Pistolets, à moins qu'il ne s'agisse d'un modèle de Monstre ou de Véhicule, il peut soit tirer avec ses Pistolets, soit avec toutes ses autres armes à distance. Déclarez si un tel modèle va tirer avec ses Pistolets ou ses autres armes à distance avant de sélectionner les cibles."
+        },
+        {
+			"ID":"3",
+            "Name":"Anti-Mots Clef",
+            "Description":"Les armes avec [ANTI-MOT-CLÉ X+] dans leur profil sont connues comme des armes Anti. Chaque fois qu'une attaque est effectuée avec une telle arme contre une cible avec le mot-clé après le mot 'Anti-', un jet de Blessure non modifié de 'x+' inflige une Blessure Critique."
+        },
+        {
+			"ID":"4",
+            "Name":"Blessure Dévastatrice",
+            "Description":"Les armes avec [BLESSURE DEVASTATRICE] dans leur profil sont connue comme des arme à belssure dévastatrice. Chaque fois une attaque est effectuer avec une telle arme, si cette attaque inflige une Blessure Critique, aucun jet de sauvegarde d'aucun type ne peut etre effectuer contre cette attaque (en incluant les jet de sauvegarde invulnérable). De telle attaque ne sont alloué a la figurine que une fois que toute les autre attaque effectuer par l'unité attaquante on été allouer et résolue."
+        },
+        {
+			"ID":"5",
+            "Name":"Precision",
+            "Description":"Les armes avec [PRÉCISION] dans leur profil sont connues comme des armes de Précision. Chaque fois qu'une attaque effectuée avec une telle arme blesse avec succès une unité encastrée, si un modèle de Personnage dans cette unité est visible pour le modèle attaquant, le joueur du modèle attaquant peut choisir d'attribuer cette attaque à ce modèle de Personnage au lieu de suivre la séquence d'attaque normale."
+        },
+        {
+			"ID":"6",
+            "Name":"Lourde",
+            "Description":"Les armes avec [LOURD] dans leur profil sont connues comme des armes Lourdes. Chaque fois qu'une attaque est effectuée avec une telle arme, si l'unité du modèle attaquant est restée immobile ce tour, ajoutez 1 au jet pour Toucher de cette attaque."
+        },
+        {
+			"ID":"7",
+            "Name":"Touche Soutenues",
+            "Description":"Les armes avec [TOUCHE SOUTENUES X] dans leur profil sont connues comme des armes à Touche Soutenues. Chaque fois qu'une attaque est effectuée avec une telle arme, si un Résultat Critique est obtenu, cette attaque inflige un nombre d'attaques supplémentaires à la cible tel que noté par 'x'."
+        },
+        {
+			"ID":"8",
+            "Name":"Melta",
+            "Description":"Les armes avec [MELTA X] dans leur profil sont connues comme des armes à Melta. Chaque fois qu'une attaque effectuée avec une telle arme cible une unité à la moitié de la portée de l'arme, la caractéristique de Dégâts de cette attaque est augmentée du montant indiqué par 'x'."
+        },
+        {
+			"ID":"9",
+            "Name":"Ignore la Couverture",
+            "Description":"Les armes avec [IGNORES COVER] dans leur profil sont connues comme des armes Ignorant la Couverture. Chaque fois qu'une attaque est effectuée avec une telle arme, la cible ne peut pas bénéficier de la Couverture contre cette attaque."
+        },
+        {
+			"ID":"10",
+            "Name":"Torrent",
+            "Description":"Les armes avec [TORRENT] dans leur profil sont connues comme des armes Torrent. Chaque fois qu'une attaque est effectuée avec une telle arme, cette attaque touche automatiquement la cible."
+        },
+        {
+			"ID":"11",
+            "Name":"Hazardeux",
+            "Description":"Les armes avec [HAZARDOUS] dans leur profil sont connues comme des armes Dangereuses. Chaque fois qu'une unité est sélectionnée pour tirer ou combattre, si un ou plusieurs modèles attaquent avec des armes Dangereuses, après que cette unité a résolu toutes ses attaques, vous devez effectuer un test Dangereux pour chaque arme Dangereuse qui vient d'être utilisée en lançant un dé à 6 faces. Pour chaque résultat de 1, ce test est échoué et un modèle dans cette unité équipé d'une arme Dangereuse est détruit (sélectionné par le joueur qui contrôle l'unité), à moins que ce modèle ne soit un Personnage, un Monstre ou un Véhicule, auquel cas il subit 3 blessures mortelles à la place. Notez que si vous avez sélectionné un modèle de Personnage dans une unité attachée, les blessures mortelles subies doivent d'abord être attribuées à ce modèle, même s'il y a un autre modèle dans cette unité qui a perdu un ou plusieurs points de vie ou à qui des attaques ont été attribuées lors de cette phase."
+        },
+        {
+			"ID":"12",
+            "Name":"Jumelé",
+            "Description":"Les armes avec [JUMELÉ] dans leur profil sont connues comme des armes Jumelées. Chaque fois qu'une attaque est effectuée avec une telle arme, vous pouvez relancer le jet de Blessure de cette attaque."
+        },
+        {
+			"ID":"13",
+            "Name":"Leader",
+            "Description":"Les armes avec [JUMELÉ] dans leur profil sont connues comme des armes Jumelées. Chaque fois qu'une attaque est effectuée avec une telle arme, vous pouvez relancer le jet de Blessure de cette attaque."
+        },
+        {
+			"ID":"14",
+            "Name":"Ressentez Aucune Douleur",
+            "Description":"Les armes avec [JUMELÉ] dans leur profil sont connues comme des armes Jumelées. Chaque fois qu'une attaque est effectuée avec une telle arme, vous pouvez relancer le jet de Blessure de cette attaque."
+        }
+    ]
+}

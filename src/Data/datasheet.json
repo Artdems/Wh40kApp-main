@@ -1,0 +1,2799 @@
+{
+	"codex":[
+	{
+		"ID":"1",
+		"Name": "Adepta Sororitas",
+		"Datasheet":[
+		{
+			"ID":"1",
+			"Name":"Aestred Thurga et Agathae Dolan",
+			"Statistique":[
+			{
+				"ID":"1",
+				"Name":"Aestred Thurga",
+				"Mouvement":"6",
+				"Thougnes":"3",
+				"Sauvgarde":"2",
+				"Wound":"4",
+				"LeaderShip":"6",
+				"ObjectifControl":"1"
+			},
+			{
+				"ID":"2",
+				"Name":"Agathae Dolan",
+				"Mouvement":"6",
+				"Thougnes":"3",
+				"Sauvgarde":"6",
+				"Wound":"3",
+				"LeaderShip":"7",
+				"ObjectifControl":"1"
+			}
+			],			
+			"InvulnerableSave":"4",
+			"RangedWeapons":[
+				{
+					"ID":"1",
+					"Name":"Pistolet Bolter",
+					"Range":"12",
+					"Attack":"1",
+					"SkillStrike":"3",
+					"Strength":"4",
+					"ArmorPenetration":"0",
+					"Degat":"1",
+					"Description":"",
+					"KeyWord":[
+						{
+							"ID":"1",
+							"Name":"Pistolet",
+							"Rule":"Pistolet"
+						}
+					]
+				}
+			],
+			"MeleeWeapons":[
+				{
+					"ID":"1",
+					"Name":"Épée de Vigil",
+					"Range":"Melee",
+					"Attack":"4",
+					"SkillStrike":"3",
+					"Strength":"5",
+					"ArmorPenetration":"2",
+					"Degat":"2",
+					"Description":"",
+					"KeyWord":[]
+				},
+				{
+					"ID":"2",
+					"Name":"Bâton du Scribe",
+					"Range":"Melee",
+					"Attack":"3",
+					"SkillStrike":"4",
+					"Strength":"4",
+					"ArmorPenetration":"0",
+					"Degat":"1",
+					"Description":"",
+					"KeyWord":[]
+				}
+			],
+			"CoreRule":[
+				{
+					"ID":"1",
+					"Name":"Leader",
+					"Rule":"Leader"
+				}
+			],
+			"DatasheetAbilities":[
+				{
+					"ID":"1",
+					"Name":"Auto-Tapisserie du Jugement de l'Empereur",
+					"Description":"Tant que Aestred Thurga dirige une unité, les armes de mêlée équipées par les modèles de cette unité ont la capacité [Blessures Dévastatrices]."
+				},
+				{
+					"ID":"2",
+					"Name":"Raconter les Profondeurs des Saints",
+					"Description":"Tant qu'Agathae Dolan fait partie de cette unité, chaque fois que cette unité effectue un Acte de Foi, le résultat d'un des dés miracles utilisés dans cet Acte de Foi est d'abord augmenté de 1 (jusqu'à un maximum de 6)."
+				}
+			],
+			"WargearAbilities":[],
+			"Leader":[
+				{
+					"ID":"1",
+					"Name":"Escouade de Soeurs de Bataille"
+				},
+				{
+					"ID":"2",
+					"Name":"Celestian Sacresants"
+				},
+				{
+					"ID":"3",
+					"Name":"Escouade de Dominions"
+				},
+				{
+					"ID":"4",
+					"Name":"Escouade de Rétributor"
+				}
+			],
+			"WargearOption":[],
+			"UnitComposition":{
+				"Composition": [
+					{
+						"Model":[
+							{
+								"ID": "1",
+								"Min" : "1",
+								"Max" : "",
+								"Quantity": "1",
+								"Name" : "Aestred Thurga",
+								"Descritpion" : "Héro Épic"
+							},
+							{
+								"ID": "2",
+								"Min" : "1",
+								"Max" : "",
+								"Quantity": "1",
+								"Name" : "Agathae Dolan",
+								"Descritpion" : "Héro Épic"
+							}
+						]
+					}
+				],
+				"Wargear": [
+					{
+						"ID":"1",
+						"Text":"Aestred Thurga est équipé avec : pistolet bolter; Épée de Vigil"
+					},					
+					{
+						"ID":"2",
+						"Text":"Agathae Dolan est équipé avec : pistolet bolter; Bâton du Scribe"
+					}
+				],
+				"TablePoints":[
+					{
+						"ID":"1",
+						"Model":[
+							{
+								"ID":"1",
+								"Name": "Aestred Thurga",
+								"Count":"1"
+							},
+							{
+								"ID":"2",
+								"Name": "Agathae Dolan",
+								"Count":"1"
+							}
+						],
+						"Points":"55"
+					}
+				]
+			},
+			"KeyWord":"INFANTRIE, GRENADES, PERSONNAGE, HERO EPIC, IMPERIUM, AESTRED THURGA ET AGATHAE DOLAN"
+
+		},
+		{
+			"ID":"2",
+			"Name":"Arco-Flagelants",
+			"Statistique":[
+			{
+				"ID":"1",
+				"Name":"",
+				"Mouvement":"7",
+				"Thougnes":"3",
+				"Sauvgarde":"7",
+				"Wound":"2",
+				"LeaderShip":"8",
+				"ObjectifControl":"1"
+			}
+			],
+			"InvulnerableSave":"",
+			"RangedWeapons":[],
+			"MeleeWeapons":[
+				{
+					"ID":"1",
+					"Name":"Arco-fouets",
+					"Range":"Melee",
+					"Attack":"4",
+					"SkillStrike":"4",
+					"Strength":"5",
+					"ArmorPenetration":"0",
+					"Degat":"1",
+					"Description":"",
+					"KeyWord":[
+						{
+							"ID":"1",
+							"Name":"Touche Soutenues 1",
+							"Rule":"Touche Soutenues"
+						},
+						{
+							"ID":"2",
+							"Name":"Jumelé",
+							"Rule":"Jumelé"
+						}
+					]
+				}
+			],
+			"CoreRule":[
+				{
+					"ID":"1",
+					"Name":"Ressentez Aucune Douleur 4+",
+					"Rule":"Ressentez Aucune Douleur"
+				}
+			],
+			"DatasheetAbilities":[
+				{
+					"ID":"1",
+					"Name":"Mot Déclencheur d'Extrémis",
+					"Description":"Chaque fois que cette unité est sélectionnée pour combattre, vous pouvez choisir d'invoquer son mot déclencheur d'extrémis. Si vous le faites, alors jusqu'à la fin de la phase, les arco-fouets équipés par les modèles de cette unité ont une caractéristique d'Attaques de 6 et la capacité [HAZARDOUS]."
+				}
+			],
+			"WargearAbilities":[],
+			"Leader":[],
+			"WargearOption":[],
+			"UnitComposition":{
+				"Composition": [
+					{
+						"Model":[
+							{
+								"ID": "1",
+								"Min" : "3",
+								"Max" : "10",
+								"Quantity": "3",
+								"Name" : "Arco-Flagelants",
+								"Descritpion" : ""
+							}
+						]
+					}
+				],
+				"Wargear": [
+					{
+						"ID":"1",
+						"Text":"Tout les modèle sont équipé d'Arco-fouets"
+					}
+				],
+				"TablePoints":[
+					{
+						"ID":"1",
+						"Model":[
+							{
+								"ID":"1",
+								"Name": "Arco-Flagelants",
+								"Count":"3"
+							}
+						],
+						"Points":"40"
+					},
+					{
+						"ID":"2",
+						"Model":[
+							{
+								"ID":"1",
+								"Name": "Arco-Flagelants",
+								"Count":"4-10"
+							}
+						],
+						"Points":"130"
+					}
+				]
+			},
+			"KeyWord":"INFANTRIE, IMPERIUM, ARCO-FLAGELANTS"
+
+		},
+		{
+			"ID":"3",
+			"Name":"Escouade de Soeurs de Bataille",
+			"Statistique":[
+			{
+				"ID":"1",
+				"Name":"",
+				"Mouvement":"6",
+				"Thougnes":"3",
+				"Sauvgarde":"3",
+				"Wound":"1",
+				"LeaderShip":"7",
+				"ObjectifControl":"2"
+			}
+			],
+			"InvulnerableSave":"6",
+			"RangedWeapons":[
+				{
+					"ID":"1",
+					"Name":"Artificer-crafted storm bolter",
+					"Range":"24",
+					"Attack":"2",
+					"SkillStrike":"3",
+					"Strength":"4",
+					"ArmorPenetration":"0",
+					"Degat":"2",
+					"Description":"",
+					"KeyWord":[
+						{
+							"ID":"1",
+							"Name":"Tire Rapide 2",
+							"Rule":"Tir Rapide"
+						}
+					]
+				},
+				{
+					"ID":"2",
+					"Name":"Bolt Pistol",
+					"Range":"12",
+					"Attack":"1",
+					"SkillStrike":"3",
+					"Strength":"4",
+					"ArmorPenetration":"0",
+					"Degat":"1",
+					"Description":"",
+					"KeyWord":[
+						{
+							"ID":"1",
+							"Name":"Pistolet",
+							"Rule":"Pistolet"
+						}
+					]
+				},
+				{
+					"ID":"3",
+					"Name":"Boltgun",
+					"Range":"24",
+					"Attack":"1",
+					"SkillStrike":"3",
+					"Strength":"4",
+					"ArmorPenetration":"0",
+					"Degat":"1",
+					"Description":"",
+					"KeyWord":[
+						{
+							"ID":"1",
+							"Name":"Tire Rapide 1",
+							"Rule":"Tir Rapide"
+						}
+					]
+				},
+				{
+					"ID":"4",
+					"Name":"Combi-weapon",
+					"Range":"24",
+					"Attack":"1",
+					"SkillStrike":"4",
+					"Strength":"4",
+					"ArmorPenetration":"0",
+					"Degat":"1",
+					"Description":"",
+					"KeyWord":[
+						{
+							"ID":"1",
+							"Name":"Anti-infantrie 4+",
+							"Rule":"Anti-Mots Clef"
+						},
+						{
+							"ID":"2",
+							"Name":"Blessure Dévastatrice",
+							"Rule":"Blessure Dévastatrice"
+						},
+						{
+							"ID":"3",
+							"Name":"Tire Rapide 1",
+							"Rule":"Tir Rapide"
+						}
+					]
+				},
+				{
+					"ID":"5",
+					"Name":"Condemnor boltgun",
+					"Range":"24",
+					"Attack":"1",
+					"SkillStrike":"3",
+					"Strength":"4",
+					"ArmorPenetration":"0",
+					"Degat":"1",
+					"Description":"",
+					"KeyWord":[
+						{
+							"ID":"1",
+							"Name":"Anti-psyker 2+",
+							"Rule":"Anti-Mots Clef"
+						},
+						{
+							"ID":"2",
+							"Name":"Blessure Dévastatrice",
+							"Rule":"Blessure Dévastatrice"
+						},
+						{
+							"ID":"3",
+							"Name":"Precision",
+							"Rule":"Precision"
+						},
+						{
+							"ID":"4",
+							"Name":"Tire Rapide 1",
+							"Rule":"Tir Rapide"
+						}
+					]
+				},
+				{
+					"ID":"6",
+					"Name":"Bolter Lourd",
+					"Range":"36",
+					"Attack":"3",
+					"SkillStrike":"4",
+					"Strength":"5",
+					"ArmorPenetration":"1",
+					"Degat":"2",
+					"Description":"",
+					"KeyWord":[
+						{
+							"ID":"1",
+							"Name":"Lourde",
+							"Rule":"Lourde"
+						},
+						{
+							"ID":"2",
+							"Name":"Touche Soutenues 1",
+							"Rule":"Touche Soutenues"
+						}
+					]
+				},
+				{
+					"ID":"7",
+					"Name":"Pistolet Inferno",
+					"Range":"6",
+					"Attack":"1",
+					"SkillStrike":"3",
+					"Strength":"8",
+					"ArmorPenetration":"4",
+					"Degat":"D3",
+					"Description":"",
+					"KeyWord":[
+						{
+							"ID":"1",
+							"Name":"Pistolet",
+							"Rule":"Pistolet"
+						},
+						{
+							"ID":"2",
+							"Name":"Melta 2",
+							"Rule":"Melta"
+						}
+					]
+				},
+				{
+					"ID":"8",
+					"Name":"Meltagun",
+					"Range":"12",
+					"Attack":"1",
+					"SkillStrike":"3",
+					"Strength":"9",
+					"ArmorPenetration":"4",
+					"Degat":"D6",
+					"Description":"",
+					"KeyWord":[
+						{
+							"ID":"1",
+							"Name":"Melta 2",
+							"Rule":"Melta"
+						}
+					]
+				},
+				{
+					"ID":"9",
+					"Name":"Ministorum hand flamer",
+					"Range":"12",
+					"Attack":"D6",
+					"SkillStrike":"N/A",
+					"Strength":"4",
+					"ArmorPenetration":"0",
+					"Degat":"1",
+					"Description":"",
+					"KeyWord":[
+						{
+							"ID":"1",
+							"Name":"Ignore la couverture",
+							"Rule":"Ignore la Couverture"
+						},
+						{
+							"ID":"2",
+							"Name":"Pistolet",
+							"Rule":"Pistolet"
+						},
+						{
+							"ID":"3",
+							"Name":"Torrent",
+							"Rule":"Torrent"
+						}
+					]
+				},
+				{
+					"ID":"10",
+					"Name":"Ministorum heavy flamer",
+					"Range":"12",
+					"Attack":"D6",
+					"SkillStrike":"N/A",
+					"Strength":"6",
+					"ArmorPenetration":"1",
+					"Degat":"1",
+					"Description":"",
+					"KeyWord":[
+						{
+							"ID":"1",
+							"Name":"Ignore la couverture",
+							"Rule":"Ignore la Couverture"
+						},
+						{
+							"ID":"2",
+							"Name":"Torrent",
+							"Rule":"Torrent"
+						}
+					]
+				},
+				{
+					"ID":"11",
+					"Name":"Multi-melta",
+					"Range":"18",
+					"Attack":"2",
+					"SkillStrike":"4",
+					"Strength":"9",
+					"ArmorPenetration":"4",
+					"Degat":"D6",
+					"Description":"",
+					"KeyWord":[
+						{
+							"ID":"1",
+							"Name":"Lourde",
+							"Rule":"Lourde"
+						},
+						{
+							"ID":"2",
+							"Name":"Melta 2",
+							"Rule":"Melta"
+						}
+					]
+				},
+				{
+					"ID":"12",
+					"Name":"Pistolet plasma standard",
+					"Range":"12",
+					"Attack":"1",
+					"SkillStrike":"3",
+					"Strength":"7",
+					"ArmorPenetration":"2",
+					"Degat":"1",
+					"Description":"",
+					"KeyWord":[
+						{
+							"ID":"1",
+							"Name":"Pistolet",
+							"Rule":"Pistolet"
+						}
+					]
+				},
+				{
+					"ID":"13",
+					"Name":"Pistolet plasma surcharger",
+					"Range":"12",
+					"Attack":"1",
+					"SkillStrike":"3",
+					"Strength":"8",
+					"ArmorPenetration":"3",
+					"Degat":"2",
+					"Description":"",
+					"KeyWord":[
+						{
+							"ID":"1",
+							"Name":"Hazardeux",
+							"Rule":"Hazardeux"
+						},
+						{
+							"ID":"2",
+							"Name":"Pistolet",
+							"Rule":"Pistolet"
+						}
+					]
+				}
+			],
+			"MeleeWeapons":[
+				{
+					"ID":"1",
+					"Name":"Épée Tronçonneuse",
+					"Range":"Melee",
+					"Attack":"3",
+					"SkillStrike":"4",
+					"Strength":"3",
+					"ArmorPenetration":"0",
+					"Degat":"1",
+					"Description":"",
+					"KeyWord":[]
+				},
+				{
+					"ID":"2",
+					"Name":"Arme de corps à corps",
+					"Range":"Melee",
+					"Attack":"1",
+					"SkillStrike":"4",
+					"Strength":"3",
+					"ArmorPenetration":"0",
+					"Degat":"1",
+					"Description":"",
+					"KeyWord":[]
+				},
+				{
+					"ID":"3",
+					"Name":"Arme énregétique",
+					"Range":"Melee",
+					"Attack":"2",
+					"SkillStrike":"4",
+					"Strength":"3",
+					"ArmorPenetration":"2",
+					"Degat":"1",
+					"Description":"",
+					"KeyWord":[]
+				}
+			],
+			"CoreRule":[],
+			"DatasheetAbilities":[
+				{
+					"ID":"1",
+					"Name":"Cherub",
+					"Description":"Une fois par bataille, après que cette unité ait effectué un Acte de Foi, vous gagnez 1 dé Miracle."
+				},
+				{
+					"ID":"2",
+					"Name":"Défenseurs de la Foi",
+					"Description":"À la fin de votre phase de Commandement, pour chaque marqueur d'objectif que vous contrôlez et qui a une ou plusieurs unités de votre armée avec cette capacité à portée, vous gagnez 1 dé Miracle."
+				}
+			],
+			"WargearAbilities":[
+				{
+					"ID":"1",
+					"Name":"Simulacrum Imperialis",
+					"Description": "Chaque fois qu'une unité est détruite par l'unité du porteur, vous gagnez 1 dé Miracle."
+				}
+			],
+			"Leader":[],
+			"WargearOption":[
+				{
+					"ID":"1",
+					"Description":"Le bolter de la Sœur Supérieure peut être remplacé par l'un des éléments suivants :\n     - 1 pistolet bolter\n     - 1 arme combinée\n     - 1 bolter Condamnateur\n     - 1 pistolet Inferno\n     - 1 lance-flammes à main du Ministorum\n     - 1 pistolet à plasma"
+				},				
+				{
+					"ID":"2",
+					"Description":"La Sœur Supérieure peut être équipée de l'un des éléments suivants :\n     - 1 épée tronçonneuse\n     - 1 arme énergétique"
+				},				
+				{
+					"ID":"3",
+					"Description":"Le bolter d'une Sœur de Bataille peut être remplacé par l'un des éléments suivants :\n     - 1 bolter d'assaut artisanal\n     - 1 fuseur\n     - 1 lance-flammes du Ministorum"
+				},				
+				{
+					"ID":"4",
+					"Description":"Le bolter d'une Sœur de Bataille peut être remplacé par l'un des éléments suivants :\n     - 1 bolter d'assaut artisanal\n     - 1 bolter lourd\n     - 1 fuseur\n     - 1 lance-flammes du Ministorum\n     - 1 lance-flammes lourd du Ministorum\n     - 1 multi-fuseur"
+				},				
+				{
+					"ID":"5",
+					"Description":"Une Sœur de Bataille équipée d'un bolter peut être équipée d'un Simulacre Impérial (le bolter du modèle ne peut pas être remplacé)."
+				}
+			],
+			"UnitComposition":{
+				"Composition": [
+					{
+						"Model":[
+							{
+								"ID": "1",
+								"Min" : "1",
+								"Max" : "",
+								"Quantity": "1",
+								"Name" : "Soeur Supérieure",
+								"Descritpion" : ""
+							},
+							{
+								"ID": "2",
+								"Min" : "9",
+								"Max" : "",
+								"Quantity": "9",
+								"Name" : "Soeur de Bataille",
+								"Descritpion" : ""
+							}
+						]
+					}
+				],
+				"Wargear": [
+					{
+						"ID":"1",
+						"Text":"Tout les modèles sont équipé de : pistolet bolter; boltgun; arme de corps à corps"
+					}
+				],
+				"TablePoints":[
+					{
+						"ID":"1",
+						"Model":[
+							{
+								"ID":"1",
+								"Name": "Soeur Supérieure",
+								"Count":"1"
+							},
+							{
+								"ID":"2",
+								"Name": "Soeur de Bataille",
+								"Count":"9"
+							}
+						],
+						"Points":"100"
+					}
+				]
+			},
+			"KeyWord":"INFANTRIE, GRENADES, UNITE DE LIGNE, IMPERIUM, ESQUADE DE SOEUR DE BATAILLE"
+
+		}
+		]
+	},
+	{
+		"ID":"2",
+		"Name": "Adeptus Custodes",
+		"Datasheet":[]
+	},
+	{
+		"ID":"3",
+		"Name": "Adeptus Mechanicus",
+		"Datasheet":[]
+	},
+	{
+		"ID":"4",
+		"Name": "Aeldari",
+		"Datasheet":[]
+	},
+	{
+		"ID":"5",
+		"Name": "Astra Militarum",
+		"Datasheet":[]
+	},
+	{
+		"ID":"6",
+		"Name": "Black Templars",
+		"Datasheet":[]
+	},
+	{
+		"ID":"7",
+		"Name": "Blood Angels",
+		"Datasheet":[]
+	},
+	{
+		"ID":"8",
+		"Name": "Chevaliers Du Chaos",
+		"Datasheet":[]
+	},
+	{
+		"ID":"9",
+		"Name": "Cultes Genestealer",
+		"Datasheet":[]
+	},
+	{
+		"ID":"10",
+		"Name": "Dark Angels",
+		"Datasheet":[]
+	},
+	{
+		"ID":"11",
+		"Name": "Death Guard",
+		"Datasheet":[]
+	},
+	{
+		"ID":"12",
+		"Name": "Deathwatch",
+		"Datasheet":[]
+	},
+	{
+		"ID":"13",
+		"Name": "Drukhari",
+		"Datasheet":[]
+	},
+	{
+		"ID":"14",
+		"Name": "Démons du Chaos",
+		"Datasheet":[]
+	},
+	{
+		"ID":"15",
+		"Name": "Empire T'au",
+		"Datasheet":[]
+	},
+	{
+		"ID":"16",
+		"Name": "Grey Knights",
+		"Datasheet":[]
+	},
+	{
+		"ID":"17",
+		"Name": "Chevaliers Impériaux",
+		"Datasheet":[]
+	},
+	{
+		"ID":"18",
+		"Name": "Ligues Votann",
+		"Datasheet":[]
+	},
+	{
+		"ID":"19",
+		"Name": "Nécrons",
+		"Datasheet":[]
+	},
+	{
+		"ID":"20",
+		"Name": "Orks",
+		"Datasheet":[]
+	},
+	{
+		"ID":"21",
+		"Name": "Space Marines",
+		"Datasheet":[
+			{
+				"ID":"1",
+				"Name":"Roboute Guilliman",
+				"Statistique":[
+				{
+					"ID":"1",
+					"Name":"",
+					"Mouvement":"8",
+					"Thougnes":"9",
+					"Sauvgarde":"2",
+					"Wound":"10",
+					"LeaderShip":"5",
+					"ObjectifControl":"4"
+				}
+				],			
+				"InvulnerableSave":"4",
+				"RangedWeapons":[
+					{
+						"ID":"1",
+						"Name":"Main de Dolination",
+						"Range":"30",
+						"Attack":"2",
+						"SkillStrike":"2",
+						"Strength":"6",
+						"ArmorPenetration":"2",
+						"Degat":"2",
+						"Description":"",
+						"KeyWord":[
+							{
+								"ID":"1",
+								"Name":"Tir Rapide 2",
+								"Rule":"Tir Rapide"
+							}
+						]
+					}
+				],
+				"MeleeWeapons":[
+					{
+						"ID":"1",
+						"Name":"Épée de L'Empereur",
+						"Range":"Mêlée",
+						"Attack":"14",
+						"SkillStrike":"2",
+						"Strength":"8",
+						"ArmorPenetration":"3",
+						"Degat":"2",
+						"Description":"",
+						"KeyWord":[
+							{
+								"ID":"1",
+								"Name":"Blessures Dévastatrices",
+								"Rule":"Blessures Dévastatrices"
+							}
+						]
+					},
+					{
+						"ID":"2",
+						"Name":"Main de Domination",
+						"Range":"Mêlée",
+						"Attack":"7",
+						"SkillStrike":"2",
+						"Strength":"14",
+						"ArmorPenetration":"4",
+						"Degat":"4",
+						"Description":"",
+						"KeyWord":[
+							{
+								"ID":"1",
+								"Name":"Touches Fatales",
+								"Rule":"Touches Fatales"
+							}
+						]
+					}
+				],
+				"CoreRule":[],
+				"DatasheetAbilities":[
+					{
+						"ID":"1",
+						"Name":"Auteur du Codex",
+						"Description":"A votre phase de Commandement, choisissez 1 aptitude d'Auteur du Codex (voir Capaciter). Jusqu'au début de votre prochaine phase de Commandement, cette figurine a cette aptitude."
+					},
+					{
+						"ID":"2",
+						"Name":"Escorte Ultramarines",
+						"Description":"Tant que cette figurineest à 3\" d'une ou plusieur unités Infantrie Adeptus Astartes amies, cette figurine a l'aptitude Agent Solitaire."
+					},
+					{
+						"ID":"3",
+						"Name":"Armure du Destin",
+						"Description":"La première fois que cette figurine est détruite, jetez 1 D6 à la fin de la phase : sur 3+, replacez cette figurine sur le champs de bataille aussi près que possible de l'endroit où elle a été détruite et hors de Portée d'Engagement des unités ennemies, avec 6 PV restants."
+					}
+				],
+				"WargearAbilities":[],
+				"Leader":[],
+				"WargearOption":[],
+				"UnitComposition":{
+					"Composition": [
+						{
+							"Model":[
+								{
+									"ID": "1",
+									"Min" : "1",
+									"Max" : "",
+									"Quantity": "1",
+									"Name" : "Roboute Guilliman",
+									"Descritpion" : "Héro Épic"
+								}
+							]
+						}
+					],
+					"Wargear": [
+						{
+							"ID":"1",
+							"Text":"Cette figurine est équipée de : Main de Domination; Épée de l'Empereur."
+						}
+					],
+					"TablePoints":[
+						{
+							"ID":"1",
+							"Model":[
+								{
+									"ID":"1",
+									"Name": "Aestred Thurga",
+									"Count":"1"
+								}
+							],
+							"Points":"345"
+						}
+					]
+				},
+				"KeyWord":"MONSTRE, PERSONNAGE, HÉROS ÉPIQUE, IMPERIUM, PRIMARQUE, ROBOUTE GUILLIMAN"
+
+			},
+			{
+				"ID":"2",
+				"Name":"Marneus Calgar",
+				"Statistique":[
+				{
+					"ID":"1",
+					"Name":"Marneus Calgar",
+					"Mouvement":"6",
+					"Thougnes":"6",
+					"Sauvgarde":"2",
+					"Wound":"6",
+					"LeaderShip":"6",
+					"ObjectifControl":"1"
+				},
+				{
+					"ID":"2",
+					"Name":"Garde d'Honneur Victrix",
+					"Mouvement":"6",
+					"Thougnes":"4",
+					"Sauvgarde":"2",
+					"Wound":"3",
+					"LeaderShip":"6",
+					"ObjectifControl":"1"
+				}
+				],
+				"InvulnerableSave":"4",
+				"RangedWeapons":[
+					{
+						"ID":"1",
+						"Name":"Gantelets d'Ultramar",
+						"Range":"18",
+						"Attack":"4",
+						"SkillStrike":"2",
+						"Strength":"4",
+						"ArmorPenetration":"1",
+						"Degat":"2",
+						"Description":"",
+						"KeyWord":[
+							{
+								"ID":"1",
+								"Name":"Pistolet",
+								"Rule":"Pistolet"
+							},
+							{
+								"ID":"2",
+								"Name":"Jumelé",
+								"Rule":"Jumelé"
+							}
+						]
+					}
+				],
+				"MeleeWeapons":[
+					{
+						"ID":"1",
+						"Name":"Gantelets d'Ultramar",
+						"Range":"Melee",
+						"Attack":"6",
+						"SkillStrike":"2",
+						"Strength":"8",
+						"ArmorPenetration":"3",
+						"Degat":"3",
+						"Description":"",
+						"KeyWord":[
+							{
+								"ID":"1",
+								"Name":"Jumelé",
+								"Rule":"Jumelé"
+							}
+						]
+					},
+					{
+						"ID":"2",
+						"Name":"Épée énergétique Victrix",
+						"Range":"Melee",
+						"Attack":"5",
+						"SkillStrike":"2",
+						"Strength":"5",
+						"ArmorPenetration":"2",
+						"Degat":"2",
+						"Description":"",
+						"KeyWord":[]
+					}
+				],
+				"CoreRule":[
+					{
+						"ID":"1",
+						"Name":"Meneur",
+						"Rule":"Meneur"
+					}
+				],
+				"DatasheetAbilities":[
+					{
+						"ID":"1",
+						"Name":"Mot Déclencheur d'Extrémis",
+						"Description":"Chaque fois que cette unité est sélectionnée pour combattre, vous pouvez choisir d'invoquer son mot déclencheur d'extrémis. Si vous le faites, alors jusqu'à la fin de la phase, les arco-fouets équipés par les modèles de cette unité ont une caractéristique d'Attaques de 6 et la capacité [HAZARDOUS]."
+					}
+				],
+				"WargearAbilities":[],
+				"Leader":[
+					{
+						"ID":"1",
+						"Name":"Escouade Aggressor"
+					},
+					{
+						"ID":"2",
+						"Name":"Escouade d'Assaut Intercessor"
+					},
+					{
+						"ID":"3",
+						"Name":"Escouade de Vétérans Bladeguards"
+					},
+					{
+						"ID":"4",
+						"Name":"Héros de Compagnie"
+					},
+					{
+						"ID":"5",
+						"Name":"Escouade Eradicator"
+					},
+					{
+						"ID":"6",
+						"Name":"Escouade Lourde Intercessor"
+					},
+					{
+						"ID":"7",
+						"Name":"Escouade Infernus"
+					},
+					{
+						"ID":"8",
+						"Name":"Escouade Intercessor"
+					},
+					{
+						"ID":"9",
+						"Name":"Escouade de Vétérans Sternguards"
+					},
+					{
+						"ID":"10",
+						"Name":"Escouade Tactique"
+					}
+				],
+				"WargearOption":[],
+				"UnitComposition":{
+					"Composition": [
+						{
+							"Model":[
+								{
+									"ID": "1",
+									"Min" : "1",
+									"Max" : "",
+									"Quantity": "1",
+									"Name" : "Marneus Calgar",
+									"Descritpion" : "Héros Épique"
+								},
+								{
+									"ID": "2",
+									"Min" : "2",
+									"Max" : "",
+									"Quantity": "2",
+									"Name" : "Gardes d'Honneur Victrix",
+									"Descritpion" : ""
+								}
+							]
+						}
+					],
+					"Wargear": [
+						{
+							"ID":"1",
+							"Text":"Marneus Calgar est équipé de : Gantelets d'Ultramar."
+						},					
+						{
+							"ID":"2",
+							"Text":"Chaque Garde d'Honneur Victrix est équipé de : épée énergétique Victrix."
+						}
+					],
+					"TablePoints":[
+						{
+							"ID":"1",
+							"Model":[
+								{
+									"ID":"1",
+									"Name": "Marneus Calgar",
+									"Count":"1"
+								}
+							],
+							"Points":"200"
+						}
+					]
+				},
+				"KeyWord":"TOUTES LES FIGURINES : INFANTRIES, IMPERIUM | MARNEUS CALGAR : PERSONNAGE, HÉROS ÉPIQUE, GRAVIS, MAÎTRE DE CHAPITRE, MARNEUS CALGAR"
+
+			},
+			{
+				"ID":"3",
+				"Name":"Maître Archiviste Tigurius",
+				"Statistique":[
+				{
+					"ID":"1",
+					"Name":"",
+					"Mouvement":"6",
+					"Thougnes":"4",
+					"Sauvgarde":"3",
+					"Wound":"4",
+					"LeaderShip":"6",
+					"ObjectifControl":"1"
+				}
+				],
+				"InvulnerableSave":"4",
+				"RangedWeapons":[
+					{
+						"ID":"1",
+						"Name":"Pistolet bolter",
+						"Range":"12",
+						"Attack":"1",
+						"SkillStrike":"2",
+						"Strength":"4",
+						"ArmorPenetration":"0",
+						"Degat":"1",
+						"Description":"",
+						"KeyWord":[
+							{
+								"ID":"1",
+								"Name":"Pistolet",
+								"Rule":"Pistolet"
+							}
+						]
+					},
+					{
+						"ID":"2",
+						"Name":"Tempête de la Colère de l'Empereur - feu sorcier",
+						"Range":"18",
+						"Attack":"D6",
+						"SkillStrike":"2",
+						"Strength":"6",
+						"ArmorPenetration":"2",
+						"Degat":"2",
+						"Description":"Avant de choisir des cibles pour cette arme, choisissez 1 de ses profils avec lequel faire des attaques.",
+						"KeyWord":[
+							{
+								"ID":"1",
+								"Name":"Déflagration",
+								"Rule":"Déflagration"
+							},						
+							{
+								"ID":"2",
+								"Name":"Psychique",
+								"Rule":"Psychique"
+							}
+						]
+					},
+					{
+						"ID":"3",
+						"Name":"Tempête de la Colère de l'Empereur - feu sorcier focalisé",
+						"Range":"18",
+						"Attack":"2D6",
+						"SkillStrike":"2",
+						"Strength":"6",
+						"ArmorPenetration":"2",
+						"Degat":"2",
+						"Description":"Avant de choisir des cibles pour cette arme, choisissez 1 de ses profils avec lequel faire des attaques.",
+						"KeyWord":[
+							{
+								"ID":"1",
+								"Name":"Déflagration",
+								"Rule":"Déflagration"
+							},
+							{
+								"ID":"2",
+								"Name":"A Risque",
+								"Rule":"A Risque"
+							},						
+							{
+								"ID":"3",
+								"Name":"Psychique",
+								"Rule":"Psychique"
+							}
+						]
+					}
+				],
+				"MeleeWeapons":[
+					{
+						"ID":"1",
+						"Name":"Bâton de Tigurius",
+						"Range":"Mêlée",
+						"Attack":"5",
+						"SkillStrike":"3",
+						"Strength":"7",
+						"ArmorPenetration":"2",
+						"Degat":"D3",
+						"Description":"",
+						"KeyWord":[						
+							{
+								"ID":"3",
+								"Name":"Psychique",
+								"Rule":"Psychique"
+							}
+						]
+					}
+				],
+				"CoreRule":[
+					{
+						"ID":"1",
+						"Name":"Meneur",
+						"Rule":"Meneur"
+					}
+				],
+				"DatasheetAbilities":[
+					{
+						"ID":"1",
+						"Name":"Coiffe des Feux de l'Enfer",
+						"Description":"Tant que cette figurine mène une unité, le figurine de l'unité on l'aptitude Insensible à la Douleur 4+ contre les attaques Psychiques et blessures mortelles."
+					},
+					{
+						"ID":"2",
+						"Name":"Maître de la Prescience (Psychique)",
+						"Description":"Tant que cette figurine mène une unité, à chaque qui cible l'unité, soustrayez 1 au jet de Touche. De plus, une seul fois par round de bataille, vous pouvez cibler l'unité avec 1 des Stratagèmes suivants pour 0PC : Contre-offensive; Tir en État d'Alerte; A Terre; Intervention Héroïque."
+					}
+				],
+				"WargearAbilities":[],
+				"Leader":[
+					{
+						"ID":"1",
+						"Name":"Escouade d'Assaut Intercessor"
+					},
+					{
+						"ID":"2",
+						"Name":"Escouade de Vétérans Bladeguards"
+					},
+					{
+						"ID":"3",
+						"Name":"Escouade Desolator"
+					},
+					{
+						"ID":"4",
+						"Name":"Escouade Devastator"
+					},
+					{
+						"ID":"5",
+						"Name":"Escouade Intercessor"
+					},
+					{
+						"ID":"6",
+						"Name":"Escouade de Vétérans Sternguards"
+					},
+					{
+						"ID":"7",
+						"Name":"Escouade Tactique"
+					}
+				],
+				"WargearOption":[],
+				"UnitComposition":{
+					"Composition": [
+						{
+							"Model":[
+								{
+									"ID": "1",
+									"Min" : "1",
+									"Max" : "",
+									"Quantity": "1",
+									"Name" : "Maitre Archiviste Tiguris",
+									"Descritpion" : "Héro Épique"
+								}
+							]
+						}
+					],
+					"Wargear": [
+						{
+							"ID":"1",
+							"Text":"Cette figurine est équipée de : pistolet bolter; Tempête de la Colère de l'Empereur; Bâton de Tigurius"
+						}
+					],
+					"TablePoints":[
+						{
+							"ID":"1",
+							"Model":[
+								{
+									"ID":"1",
+									"Name": "Maître Archiviste Tigurius",
+									"Count":"1"
+								}
+							],
+							"Points":"85"
+						}
+					]
+				},
+				"KeyWord":"INFANTRIE, PERSONNAGE, HÉROS ÉPIQUE, PRSYKER, IMPERIUM, TACTICUS, MAÎTRE ARCHIVISTE TIGURIUS"
+
+			},
+			{
+				"ID":"4",
+				"Name":"Capitaine Sicarius",
+				"Statistique":[
+				{
+					"ID":"1",
+					"Name":"",
+					"Mouvement":"6",
+					"Thougnes":"4",
+					"Sauvgarde":"2",
+					"Wound":"5",
+					"LeaderShip":"6",
+					"ObjectifControl":"1"
+				}
+				],
+				"InvulnerableSave":"4",
+				"RangedWeapons":[
+					{
+						"ID":"1",
+						"Name":"Pistolet à Plasma d'artisan",
+						"Range":"12",
+						"Attack":"1",
+						"SkillStrike":"2",
+						"Strength":"8",
+						"ArmorPenetration":"3",
+						"Degat":"2",
+						"Description":"",
+						"KeyWord":[
+							{
+								"ID":"1",
+								"Name":"Pistolet",
+								"Rule":"Pistolet"
+							}
+						]
+					}
+				],
+				"MeleeWeapons":[
+					{
+						"ID":"1",
+						"Name":"Lame Tempête de Talassar",
+						"Range":"Mêlée",
+						"Attack":"6",
+						"SkillStrike":"2",
+						"Strength":"5",
+						"ArmorPenetration":"2",
+						"Degat":"2",
+						"Description":"",
+						"KeyWord":[						
+							{
+								"ID":"3",
+								"Name":"Touche Fatales",
+								"Rule":"Touche Fatales"
+							}
+						]
+					}
+				],
+				"CoreRule":[
+					{
+						"ID":"1",
+						"Name":"Meneur",
+						"Rule":"Meneur"
+					}
+				],
+				"DatasheetAbilities":[
+					{
+						"ID":"1",
+						"Name":"Diriger en Première Ligne",
+						"Description":"Tant que cette figurine mène une unité, les figurines de l'unité ont l'aptitude Éclaireurs 6\" et les armes de tir dont sont équipées les figurines de l'unité ont l'aptitude [ASSAUT]"
+					},
+					{
+						"ID":"2",
+						"Name":"Chevalier Champion de Macragge",
+						"Description":"Une fois par tour, quand une unité ennemie finit un mouvement Normale, d'Avance ou de Retraite à 9\" de cette figurine, si l'unité de cette figurine n'est à Portée d'Engagement d'aucune unité ennemie, elle peut faire un mouvement Normal de jusqu'à 6\""
+					}
+				],
+				"WargearAbilities":[],
+				"Leader":[
+					{
+						"ID":"1",
+						"Name":"Escouade d'Assaut Intercessor"
+					},
+					{
+						"ID":"2",
+						"Name":"Escouade de Vétérans Bladeguards"
+					},
+					{
+						"ID":"3",
+						"Name":"Héros de Compagnie"
+					},
+					{
+						"ID":"4",
+						"Name":"Escouade de Vétérans Sternguards"
+					},
+					{
+						"ID":"5",
+						"Name":"Escouade Tactique"
+					}
+				],
+				"WargearOption":[],
+				"UnitComposition":{
+					"Composition": [
+						{
+							"Model":[
+								{
+									"ID": "1",
+									"Min" : "1",
+									"Max" : "",
+									"Quantity": "1",
+									"Name" : "Capitaine Sicarius",
+									"Descritpion" : "Héro Épique"
+								}
+							]
+						}
+					],
+					"Wargear": [
+						{
+							"ID":"1",
+							"Text":"Cette figurine est équipée de : pistolet à plasma d'artisan; Lame Tempête de Talassar"
+						}
+					],
+					"TablePoints":[
+						{
+							"ID":"1",
+							"Model":[
+								{
+									"ID":"1",
+									"Name": "Maître Archiviste Tigurius",
+									"Count":"1"
+								}
+							],
+							"Points":"85"
+						}
+					]
+				},
+				"KeyWord":"INFANTRIE, PERSONNAGE, HÉROS ÉPIQUE, IMPERIUM, TACTICUS, CAPITAINE, SICARIUS"
+
+			},
+			{
+				"ID":"5",
+				"Name":"Uriel Ventris",
+				"Statistique":[
+				{
+					"ID":"1",
+					"Name":"",
+					"Mouvement":"6",
+					"Thougnes":"4",
+					"Sauvgarde":"3",
+					"Wound":"5",
+					"LeaderShip":"6",
+					"ObjectifControl":"1"
+				}
+				],
+				"InvulnerableSave":"4",
+				"RangedWeapons":[
+					{
+						"ID":"1",
+						"Name":"Pistolet bolter",
+						"Range":"12",
+						"Attack":"1",
+						"SkillStrike":"2",
+						"Strength":"4",
+						"ArmorPenetration":"0",
+						"Degat":"1",
+						"Description":"",
+						"KeyWord":[
+							{
+								"ID":"1",
+								"Name":"Pistolet",
+								"Rule":"Pistolet"
+							}
+						]
+					},
+					{
+						"ID":"2",
+						"Name":"Invictus",
+						"Range":"24",
+						"Attack":"2",
+						"SkillStrike":"2",
+						"Strength":"4",
+						"ArmorPenetration":"1",
+						"Degat":"2",
+						"Description":"",
+						"KeyWord":[]
+					}
+				],
+				"MeleeWeapons":[
+					{
+						"ID":"1",
+						"Name":"Épée d'Idaeus",
+						"Range":"Mêlée",
+						"Attack":"6",
+						"SkillStrike":"2",
+						"Strength":"6",
+						"ArmorPenetration":"2",
+						"Degat":"2",
+						"Description":"",
+						"KeyWord":[						
+							{
+								"ID":"3",
+								"Name":"Touche Soutenues",
+								"Rule":"Touche Soutenues"
+							}
+						]
+					}
+				],
+				"CoreRule":[
+					{
+						"ID":"1",
+						"Name":"Meneur",
+						"Rule":"Meneur"
+					}
+				],
+				"DatasheetAbilities":[
+					{
+						"ID":"1",
+						"Name":"Stratège Peu Orthodoxe",
+						"Description":"Tant que cette figurine mène une unité, vous pouvez cibler l'unité avec un Stratagème même si ce Stratagème a déjà été utilisé sur une autre unité de votre armée a cette phase. De plus, l'unité de cette figurine peut quand même être choisie comme cible d'un Stratagème alors qu'elle est Ébranlée."
+					},
+					{
+						"ID":"2",
+						"Name":"Maître de la Flotte",
+						"Description":"A l'étape Déclarer les Formations de Bataille, si votre armée inclut cette figurine, choisissez 1 unité Infantrie Adeptus Astartes de votre armée. L'unité choisie gagne l'aptitude Frappe en Profondeur."
+					}
+				],
+				"WargearAbilities":[],
+				"Leader":[
+					{
+						"ID":"1",
+						"Name":"Escouade d'Assaut Intercessor"
+					},
+					{
+						"ID":"2",
+						"Name":"Escouade de Vétérans Bladeguards"
+					},
+					{
+						"ID":"3",
+						"Name":"Héros de Compagnie"
+					},
+					{
+						"ID":"4",
+						"Name":"Escouade Intercessor"
+					},
+					{
+						"ID":"5",
+						"Name":"Escouade de Vétérans Sternguards"
+					},
+					{
+						"ID":"6",
+						"Name":"Escouade Tactique"
+					}
+				],
+				"WargearOption":[],
+				"UnitComposition":{
+					"Composition": [
+						{
+							"Model":[
+								{
+									"ID": "1",
+									"Min" : "1",
+									"Max" : "",
+									"Quantity": "1",
+									"Name" : "Uriel Ventris",
+									"Descritpion" : "Héro Épique"
+								}
+							]
+						}
+					],
+					"Wargear": [
+						{
+							"ID":"1",
+							"Text":"Cette figurine est équipée de : pistolet bolter; Invictus; Épée d'Idaeus"
+						}
+					],
+					"TablePoints":[
+						{
+							"ID":"1",
+							"Model":[
+								{
+									"ID":"1",
+									"Name": "Uriel Ventris",
+									"Count":"1"
+								}
+							],
+							"Points":"75"
+						}
+					]
+				},
+				"KeyWord":"INFANTRIE, PERSONNAGE, HÉROS ÉPIQUE, IMPERIUM, TACTICUS, CAPITAINE, URIEL VENTRIS"
+
+			},
+			{
+				"ID":"6",
+				"Name":"Darnath Lysander",
+				"Statistique":[
+				{
+					"ID":"1",
+					"Name":"",
+					"Mouvement":"5",
+					"Thougnes":"5",
+					"Sauvgarde":"2",
+					"Wound":"6",
+					"LeaderShip":"6",
+					"ObjectifControl":"1"
+				}
+				],
+				"InvulnerableSave":"4",
+				"RangedWeapons":[],
+				"MeleeWeapons":[
+					{
+						"ID":"1",
+						"Name":"Poing de Dorn",
+						"Range":"Mêlée",
+						"Attack":"5",
+						"SkillStrike":"2",
+						"Strength":"10",
+						"ArmorPenetration":"3",
+						"Degat":"3",
+						"Description":"",
+						"KeyWord":[						
+							{
+								"ID":"3",
+								"Name":"Blessures Dévastatrices",
+								"Rule":"Blessures Dévastatrices"
+							}
+						]
+					}
+				],
+				"CoreRule":[
+					{
+						"ID":"1",
+						"Name":"Frappe en Profondeur",
+						"Rule":"Frappe en Profondeur"
+					},
+					{
+						"ID":"2",
+						"Name":"Meneur",
+						"Rule":"Meneur"
+					}
+				],
+				"DatasheetAbilities":[
+					{
+						"ID":"1",
+						"Name":"Icône d'Obstination",
+						"Description":"Tant que cette figurine mène une unité, à chaque attaque qui cible l'unité, si la caractéristique de Force de l'attaque est supérieur ou égale à la caratéristique d'Endurance de l'unité, soustrayez 1 au jet de Blessure."
+					},
+					{
+						"ID":"2",
+						"Name":"Rempart",
+						"Description":"Une fois par bataille, au début de n'import quelle phase, cette figurine peut utiliser cette aptitude. En ce cas, jusqu'à la fin de la phase, cette figurine a une sauvegarde invulnérable de 2+."
+					}
+				],
+				"WargearAbilities":[],
+				"Leader":[
+					{
+						"ID":"1",
+						"Name":"Escouade d'Assaut Terminator"
+					},
+					{
+						"ID":"2",
+						"Name":"Escouade Terminator"
+					}
+				],
+				"WargearOption":[],
+				"UnitComposition":{
+					"Composition": [
+						{
+							"Model":[
+								{
+									"ID": "1",
+									"Min" : "1",
+									"Max" : "",
+									"Quantity": "1",
+									"Name" : "Darnath Lysander",
+									"Descritpion" : "Héro Épique"
+								}
+							]
+						}
+					],
+					"Wargear": [
+						{
+							"ID":"1",
+							"Text":"Cette figurine est équipée de : Poing de Dorm"
+						}
+					],
+					"TablePoints":[
+						{
+							"ID":"1",
+							"Model":[
+								{
+									"ID":"1",
+									"Name": "Darnath Lysander",
+									"Count":"1"
+								}
+							],
+							"Points":"110"
+						}
+					]
+				},
+				"KeyWord":"INFANTRIE, PERSONNAGE, HÉROS ÉPIQUE, IMPERIUM, TERMINATOR, CAPITAINE, DARNATH LYSANDER"
+
+			},
+			{
+				"ID":"7",
+				"Name":"TOR GARADON",
+				"Statistique":[
+				{
+					"ID":"1",
+					"Name":"",
+					"Mouvement":"5",
+					"Thougnes":"6",
+					"Sauvgarde":"3",
+					"Wound":"6",
+					"LeaderShip":"6",
+					"ObjectifControl":"1"
+				}
+				],
+				"InvulnerableSave":"4",
+				"RangedWeapons":[
+					{
+						"ID":"1",
+						"Name":"Fusil à gravitons d'artificier",
+						"Range":"18",
+						"Attack":"2",
+						"SkillStrike":"2",
+						"Strength":"5",
+						"ArmorPenetration":"1",
+						"Degat":"2",
+						"Description":"",
+						"KeyWord":[
+							{
+								"ID":"1",
+								"Name":"Anti-Véhicule 2+",
+								"Rule":"Anti-Véhicule"
+							}
+						]
+					}
+				],
+				"MeleeWeapons":[
+					{
+						"ID":"1",
+						"Name":"Main de Défi",
+						"Range":"Mêlée",
+						"Attack":"5",
+						"SkillStrike":"2",
+						"Strength":"12",
+						"ArmorPenetration":"2",
+						"Degat":"2",
+						"Description":"",
+						"KeyWord":[]
+					}
+				],
+				"CoreRule":[
+					{
+						"ID":"1",
+						"Name":"Meneur",
+						"Rule":"Meneur"
+					}
+				],
+				"DatasheetAbilities":[
+					{
+						"ID":"1",
+						"Name":"Panoplie de Signums",
+						"Description":"Tant que cette figurine mène une unité, les armes de tir dont sont équipées les figurines de l'unité ont l'aptitude [IGNORE LE COUVERT]."
+					},
+					{
+						"ID":"2",
+						"Name":"Capitaine de Siège",
+						"Description":"A chaque attaque de cette figurine qui cible une unité MONSTRE, VÉHICULE ou FORTIFICATION, améliorez de 2 les caractéristiques de Force, de Pénétration d'Armure et de Dégats de cette attaque."
+					}
+				],
+				"WargearAbilities":[],
+				"Leader":[
+					{
+						"ID":"1",
+						"Name":"Escouade Aggressor"
+					},
+					{
+						"ID":"2",
+						"Name":"Escouade Eradicator"
+					},
+					{
+						"ID":"3",
+						"Name":"Escouade Lourde Intercessor"
+					}
+				],
+				"WargearOption":[],
+				"UnitComposition":{
+					"Composition": [
+						{
+							"Model":[
+								{
+									"ID": "1",
+									"Min" : "1",
+									"Max" : "",
+									"Quantity": "1",
+									"Name" : "Tor Garadon",
+									"Descritpion" : "Héro Épique"
+								}
+							]
+						}
+					],
+					"Wargear": [
+						{
+							"ID":"1",
+							"Text":"Cette figurine est équipée de : fusil à gravitons d'artificier, Main de Défi"
+						}
+					],
+					"TablePoints":[
+						{
+							"ID":"1",
+							"Model":[
+								{
+									"ID":"1",
+									"Name": "Tor Garadon",
+									"Count":"1"
+								}
+							],
+							"Points":"100"
+						}
+					]
+				},
+				"KeyWord":"INFANTRIE, PERSONNAGE, HÉROS ÉPIQUE, IMPERIUM, GRAVIS, CAPITAINE, TOR GARADON"
+
+			},
+			{
+				"ID":"8",
+				"Name":"Pedro Kantor",
+				"Statistique":[
+				{
+					"ID":"1",
+					"Name":"",
+					"Mouvement":"6",
+					"Thougnes":"4",
+					"Sauvgarde":"2",
+					"Wound":"5",
+					"LeaderShip":"6",
+					"ObjectifControl":"1"
+				}
+				],
+				"InvulnerableSave":"4",
+				"RangedWeapons":[
+					{
+						"ID":"1",
+						"Name":"Flèche de Dorn",
+						"Range":"24",
+						"Attack":"2",
+						"SkillStrike":"2",
+						"Strength":"5",
+						"ArmorPenetration":"1",
+						"Degat":"2",
+						"Description":"",
+						"KeyWord":[
+							{
+								"ID":"1",
+								"Name":"Tir Rapide 2",
+								"Rule":"Tir Rapide"
+							},
+							{
+								"ID":"2",
+								"Name":"Touches Soutenues 1",
+								"Rule":"Touches Soutenue"
+							}
+						]
+					}
+				],
+				"MeleeWeapons":[
+					{
+						"ID":"1",
+						"Name":"Poing de la Vengeance",
+						"Range":"Mêlée",
+						"Attack":"5",
+						"SkillStrike":"2",
+						"Strength":"8",
+						"ArmorPenetration":"3",
+						"Degat":"3",
+						"Description":"",
+						"KeyWord":[]
+					}
+				],
+				"CoreRule":[
+					{
+						"ID":"1",
+						"Name":"Insensible à la Douleur 6+",
+						"Rule":"Insensible à la Douleur"
+					},
+					{
+						"ID":"2",
+						"Name":"Meneur",
+						"Rule":"Meneur"
+					}
+				],
+				"DatasheetAbilities":[
+					{
+						"ID":"1",
+						"Name":"Serment de Rynn",
+						"Description":"Une fois par bataille, au début de la phase de Commandement de n'importe quel joueur, cette figurine peut utilisé cette aptitude. En ce cas, jusqu'à la fin du tour, ajoutez 1 à la caractéristique d'Attaques des armes dont sont équipées les figurines de l'unité de cette figurine."
+					},
+					{
+						"ID":"2",
+						"Name":"Maître de la Flotte",
+						"Description":"Tant que cette figurine mène une unité, à chaque attaque d'une figurine de l'unité, ajoutez 1 au jet de Touche si l'unité est en dessous de son Effectif Initial,  et ajoutez également 1 au jet de Blessure si l'unité est En Dessous de son Demi-effectif."
+					}
+				],
+				"WargearAbilities":[],
+				"Leader":[
+					{
+						"ID":"1",
+						"Name":"Héros de Compagnie"
+					},
+					{
+						"ID":"2",
+						"Name":"Escouade de Vétérans BladeGuards"
+					},
+					{
+						"ID":"3",
+						"Name":"Escouade de Vétérans Sternguards"
+					},
+					{
+						"ID":"4",
+						"Name":"Escouade Tactique"
+					}
+				],
+				"WargearOption":[],
+				"UnitComposition":{
+					"Composition": [
+						{
+							"Model":[
+								{
+									"ID": "1",
+									"Min" : "1",
+									"Max" : "",
+									"Quantity": "1",
+									"Name" : "Pedro Kantor",
+									"Descritpion" : "Héro Épique"
+								}
+							]
+						}
+					],
+					"Wargear": [
+						{
+							"ID":"1",
+							"Text":"Cette figurine est équipée de : Fléche de Dorn; Poing de la Vengeance."
+						}
+					],
+					"TablePoints":[
+						{
+							"ID":"1",
+							"Model":[
+								{
+									"ID":"1",
+									"Name": "Pedro Kantor",
+									"Count":"1"
+								}
+							],
+							"Points":"100"
+						}
+					]
+				},
+				"KeyWord":"INFANTRIE, PERSONNAGE, HÉROS ÉPIQUE, GRENADES, IMPERIUM, TACTICUS, MAÎTRE DE CHAPITRE, PEDRO KANTOR"
+
+			},
+			{
+				"ID":"9",
+				"Name":"Révérend de Fer Feirros",
+				"Statistique":[
+				{
+					"ID":"1",
+					"Name":"",
+					"Mouvement":"5",
+					"Thougnes":"6",
+					"Sauvgarde":"2",
+					"Wound":"6",
+					"LeaderShip":"6",
+					"ObjectifControl":"1"
+				}
+				],
+				"InvulnerableSave":"",
+				"RangedWeapons":[
+					{
+						"ID":"1",
+						"Name":"Pistolet bolter",
+						"Range":"12",
+						"Attack":"1",
+						"SkillStrike":"2",
+						"Strength":"4",
+						"ArmorPenetration":"0",
+						"Degat":"1",
+						"Description":"",
+						"KeyWord":[
+							{
+								"ID":"1",
+								"Name":"Pistolet",
+								"Rule":"Pistolet"
+							}
+						]
+					},
+					{
+						"ID":"2",
+						"Name":"Ire de la Gorgone",
+						"Range":"36",
+						"Attack":"3",
+						"SkillStrike":"2",
+						"Strength":"5",
+						"ArmorPenetration":"1",
+						"Degat":"2",
+						"Description":"",
+						"KeyWord":[
+							{
+								"ID":"1",
+								"Name":"Touches Soutenues 2",
+								"Rule":"Touches Soutenues"
+							}
+						]
+					}
+				],
+				"MeleeWeapons":[
+					{
+						"ID":"1",
+						"Name":"Hersemain",
+						"Range":"Mêlée",
+						"Attack":"6",
+						"SkillStrike":"3",
+						"Strength":"7",
+						"ArmorPenetration":"2",
+						"Degat":"2",
+						"Description":"",
+						"KeyWord":[]
+					},
+					{
+						"ID":"2",
+						"Name":"Manipulus Médusiens",
+						"Range":"Mêlée",
+						"Attack":"2",
+						"SkillStrike":"3",
+						"Strength":"8",
+						"ArmorPenetration":"2",
+						"Degat":"3",
+						"Description":"",
+						"KeyWord":[
+							{
+								"ID":"1",
+								"Name":"Attaques Bonus",
+								"Rule":"Attaques Bonus"
+							}
+						]
+					}
+				],
+				"CoreRule":[
+					{
+						"ID":"1",
+						"Name":"Meneur",
+						"Rule":"Meneur"
+					}
+				],
+				"DatasheetAbilities":[
+					{
+						"ID":"1",
+						"Name":"Rites de Trempe",
+						"Description":"Tant que cette figurine mène une unité, les figurines de l'unité ont l'aptitude Insensible à la Douleur 5+."
+					},
+					{
+						"ID":"2",
+						"Name":"Révérend de Fer",
+						"Description":"Tant que cette figurine est à 3\" d'une ou plusieur unités VÉHICULE ADEPTUS ASTARTES amies, elle a l'aptitude Agent Solitaire."
+					},
+					{
+						"ID":"3",
+						"Name":"Maître de la Forge",
+						"Description":"A votre phase de Commandement, choisissez 1 figurine VÉHICULE ADEPTUS ASTARTES amie à 3\" de cette figurine. La figurine choisie récupère jusqu'à 3 PV perdus et, jusqu'au début de votre prochaine phase de Commandement, à chaque attaque de cette figurine VÉHICULE, ajoutez 1 au jet de Touche. Vous ne pouvez pas choisir pour cette aptitude une unité qui a déjà été choisie pour l'aptitude Bénédiction de l'Omnimessie à cette phase, et vice versa."
+					}
+				],
+				"WargearAbilities":[],
+				"Leader":[
+					{
+						"ID":"1",
+						"Name":"Escouade Agressor"
+					},
+					{
+						"ID":"2",
+						"Name":"Escouade Eradicator"
+					},
+					{
+						"ID":"3",
+						"Name":"Escouade Lourde Intercessor"
+					}
+				],
+				"WargearOption":[],
+				"UnitComposition":{
+					"Composition": [
+						{
+							"Model":[
+								{
+									"ID": "1",
+									"Min" : "1",
+									"Max" : "",
+									"Quantity": "1",
+									"Name" : "Révérend de Fer Feirros",
+									"Descritpion" : "Héro Épique"
+								}
+							]
+						}
+					],
+					"Wargear": [
+						{
+							"ID":"1",
+							"Text":"Cette figurine est équipée de : pistolet bolter; Ire de la Gorgone; Hersemain; Manipuli Médusiens"
+						}
+					],
+					"TablePoints":[
+						{
+							"ID":"1",
+							"Model":[
+								{
+									"ID":"1",
+									"Name": "Révérend de Fer Feirros",
+									"Count":"1"
+								}
+							],
+							"Points":"105"
+						}
+					]
+				},
+				"KeyWord":"INFANTRIE, PERSONNAGE, HÉROS ÉPIQUE, IMPERIUM, GRAVIS, RÉVÉREND DE FER FEIRROS"
+
+			},			
+			{
+				"ID":"10",
+				"Name":"Kayvaan Shrike",
+				"Statistique":[
+				{
+					"ID":"1",
+					"Name":"",
+					"Mouvement":"12",
+					"Thougnes":"4",
+					"Sauvgarde":"3",
+					"Wound":"5",
+					"LeaderShip":"6",
+					"ObjectifControl":"1"
+				}
+				],
+				"InvulnerableSave":"4",
+				"RangedWeapons":[
+					{
+						"ID":"1",
+						"Name":"Syncope",
+						"Range":"18",
+						"Attack":"1",
+						"SkillStrike":"5",
+						"Strength":"4",
+						"ArmorPenetration":"0",
+						"Degat":"1",
+						"Description":"",
+						"KeyWord":[
+							{
+								"ID":"1",
+								"Name":"Pistolet",
+								"Rule":"Pistolet"
+							}
+						]
+					}
+				],
+				"MeleeWeapons":[
+					{
+						"ID":"1",
+						"Name":"Serres du Corbeau",
+						"Range":"Mêlée",
+						"Attack":"7",
+						"SkillStrike":"2",
+						"Strength":"5",
+						"ArmorPenetration":"2",
+						"Degat":"2",
+						"Description":"",
+						"KeyWord":[						
+							{
+								"ID":"1",
+								"Name":"Précision",
+								"Rule":"Précision"
+							},
+							{
+								"ID":"2",
+								"Name":"Jumelé",
+								"Rule":"Jumelé"
+							}
+						]
+					}
+				],
+				"CoreRule":[
+					{
+						"ID":"1",
+						"Name":"Frappe en Profondeur",
+						"Rule":"Frappe en Profondeur"
+					},
+					{
+						"ID":"2",
+						"Name":"Meneur",
+						"Rule":"Meneur"
+					},
+					{
+						"ID":"3",
+						"Name":"Agent Solitaire",
+						"Rule":"Agent Solitaire"
+					},
+					{
+						"ID":"4",
+						"Name":"Discrétion",
+						"Rule":"Discrétion"
+					}
+				],
+				"DatasheetAbilities":[
+					{
+						"ID":"1",
+						"Name":"La Triple Voie de l'Ombre",
+						"Description":"Tant que cette figurine mène une unité, l'unité ne peut pas être ciblées par des attaques de tir sauf si la figurine attaquante est à 12\""
+					},
+					{
+						"ID":"2",
+						"Name":"Écho du Pic du Corbeau",
+						"Description":"A la fin du tour adverse, si l'unité de cette figurine n'est à Portée d'Engagement d'aucune unité ennemie, vous pouvez retirer l'unité du champs de bataille et la placer en Réserve Stratégique."
+					}
+				],
+				"WargearAbilities":[],
+				"Leader":[
+					{
+						"ID":"1",
+						"Name":"Intercessors d'Assaut à Réacteur Dorsaux"
+					},
+					{
+						"ID":"2",
+						"Name":"Escouade de Vétérans Vanguards à Réacteurs Dorsaux"
+					}
+				],
+				"WargearOption":[],
+				"UnitComposition":{
+					"Composition": [
+						{
+							"Model":[
+								{
+									"ID": "1",
+									"Min" : "1",
+									"Max" : "",
+									"Quantity": "1",
+									"Name" : "Kayvann Shrike",
+									"Descritpion" : "Héro Épique"
+								}
+							]
+						}
+					],
+					"Wargear": [
+						{
+							"ID":"1",
+							"Text":"Cette figurine est équipée de : Syncope, Serres du Corbeau"
+						}
+					],
+					"TablePoints":[
+						{
+							"ID":"1",
+							"Model":[
+								{
+									"ID":"1",
+									"Name": "Uriel Ventris",
+									"Count":"1"
+								}
+							],
+							"Points":"110"
+						}
+					]
+				},
+				"KeyWord":"INFANTRIE, PERSONNAGE, HÉROS ÉPIQUE, VOL, RÉACTEUR DORSAL, IMPERIUM, PHOBOS, MAÎTRE DE CHAPITRE, KAYVAAN SHRIKE"
+
+			},		
+			{
+				"ID":"11",
+				"Name":"Kor'Sarro Khan",
+				"Statistique":[
+				{
+					"ID":"1",
+					"Name":"",
+					"Mouvement":"6",
+					"Thougnes":"4",
+					"Sauvgarde":"3",
+					"Wound":"5",
+					"LeaderShip":"6",
+					"ObjectifControl":"1"
+				}
+				],
+				"InvulnerableSave":"4",
+				"RangedWeapons":[
+					{
+						"ID":"1",
+						"Name":"Pistolet bolter",
+						"Range":"12",
+						"Attack":"1",
+						"SkillStrike":"2",
+						"Strength":"5",
+						"ArmorPenetration":"1",
+						"Degat":"2",
+						"Description":"",
+						"KeyWord":[
+							{
+								"ID":"1",
+								"Name":"Pistolet",
+								"Rule":"Pistolet"
+							},
+							{
+								"ID":"2",
+								"Name":"Précision",
+								"Rule":"Précision"
+							}
+						]
+					}
+				],
+				"MeleeWeapons":[
+					{
+						"ID":"1",
+						"Name":"Croc Lunaire",
+						"Range":"Mêlée",
+						"Attack":"6",
+						"SkillStrike":"2",
+						"Strength":"5",
+						"ArmorPenetration":"2",
+						"Degat":"2",
+						"Description":"",
+						"KeyWord":[						
+							{
+								"ID":"1",
+								"Name":"Blessures Dévastatrices",
+								"Rule":"Blessures Dévastatrices"
+							},
+							{
+								"ID":"2",
+								"Name":"Précision",
+								"Rule":"Précision"
+							}
+						]
+					}
+				],
+				"CoreRule":[
+					{
+						"ID":"1",
+						"Name":"Meneur",
+						"Rule":"Meneur"
+					}
+				],
+				"DatasheetAbilities":[
+					{
+						"ID":"1",
+						"Name":"Pour le Khan !",
+						"Description":"Tant que cette figurine mène une unité, les armes de tir dont sont équipées les figurines de l'unité ont l'aptitude [ASSAUT] et les armes de mêlée dont sont équipées les figurines de l'unité ont l'aptitude [LANCE]."
+					},
+					{
+						"ID":"2",
+						"Name":"Preneur de Trophées",
+						"Description":"Chaque fois que cette figurine détruit une figurine PERSONNAGE ennemie, vous gangez 1PC."
+					}
+				],
+				"WargearAbilities":[],
+				"Leader":[
+					{
+						"ID":"1",
+						"Name":"Escouade d'Assaut Intercessor"
+					},
+					{
+						"ID":"2",
+						"Name":"Escouade de Vétérans Bladeguards"
+					},
+					{
+						"ID":"3",
+						"Name":"Escouade Intercessor"
+					},
+					{
+						"ID":"4",
+						"Name":"Escouade de Vétérans Strenguards"
+					},
+					{
+						"ID":"5",
+						"Name":"Escouade Tactique"
+					}
+				],
+				"WargearOption":[],
+				"UnitComposition":{
+					"Composition": [
+						{
+							"Model":[
+								{
+									"ID": "1",
+									"Min" : "1",
+									"Max" : "",
+									"Quantity": "1",
+									"Name" : "Kor'Sarro Khan",
+									"Descritpion" : "Héro Épique"
+								}
+							]
+						}
+					],
+					"Wargear": [
+						{
+							"ID":"1",
+							"Text":"Cette figurine est équipée de : pistolet bolter, Croc Lunaire"
+						}
+					],
+					"TablePoints":[
+						{
+							"ID":"1",
+							"Model":[
+								{
+									"ID":"1",
+									"Name": "Kor'Sarro Khan",
+									"Count":"1"
+								}
+							],
+							"Points":"70"
+						}
+					]
+				},
+				"KeyWord":"INFANTRIE, PERSONNAGE, HÉROS ÉPIQUE, IMPERIUM, TACTICUS, CAPITAINE, KOR'SARRO KHAN"
+
+			},		
+			{
+				"ID":"12",
+				"Name":"Vulkan Hes'Stan",
+				"Statistique":[
+				{
+					"ID":"1",
+					"Name":"",
+					"Mouvement":"6",
+					"Thougnes":"4",
+					"Sauvgarde":"2",
+					"Wound":"5",
+					"LeaderShip":"6",
+					"ObjectifControl":"1"
+				}
+				],
+				"InvulnerableSave":"4",
+				"RangedWeapons":[
+					{
+						"ID":"1",
+						"Name":"Pistolet bolter",
+						"Range":"12",
+						"Attack":"1",
+						"SkillStrike":"2",
+						"Strength":"5",
+						"ArmorPenetration":"1",
+						"Degat":"2",
+						"Description":"",
+						"KeyWord":[
+							{
+								"ID":"1",
+								"Name":"Pistolet",
+								"Rule":"Pistolet"
+							},
+							{
+								"ID":"2",
+								"Name":"Précision",
+								"Rule":"Précision"
+							}
+						]
+					},
+					{
+						"ID":"2",
+						"Name":"Gantelet de la Forge",
+						"Range":"12",
+						"Attack":"D6+3",
+						"SkillStrike":"N/A",
+						"Strength":"6",
+						"ArmorPenetration":"1",
+						"Degat":"1",
+						"Description":"",
+						"KeyWord":[
+							{
+								"ID":"1",
+								"Name":"Ignore le couvert",
+								"Rule":"Ignore le couvert"
+							},
+							{
+								"ID":"2",
+								"Name":"Torrent",
+								"Rule":"Torrent"
+							}
+						]
+					}
+				],
+				"MeleeWeapons":[
+					{
+						"ID":"1",
+						"Name":"Lance de Vulkan",
+						"Range":"Mêlée",
+						"Attack":"6",
+						"SkillStrike":"2",
+						"Strength":"6",
+						"ArmorPenetration":"2",
+						"Degat":"2",
+						"Description":"",
+						"KeyWord":[]
+					}
+				],
+				"CoreRule":[
+					{
+						"ID":"1",
+						"Name":"Insensible à la Douleur",
+						"Rule":"Insensible à la Douleur"
+					},
+					{
+						"ID":"2",
+						"Name":"Meneur",
+						"Rule":"Meneur"
+					}
+				],
+				"DatasheetAbilities":[
+					{
+						"ID":"1",
+						"Name":"Pére de la Forge",
+						"Description":"A votre phase de Tir, choisissez 1 unité ennemie à 24\" et visible de cette figurine. Jusqu'à la fin de la phase, à chaque attaque de tir d'une figurine ADEPTUS ASTARTES amie avec une arme à Torrent ou à Fusion qui cible cette unité ennemie, vous pouvez relancer le jet de Blessure"
+					},
+					{
+						"ID":"2",
+						"Name":"Chercheur des Reliques Perdus",
+						"Description":"Au début de la bataille, choisissez 1 pion d'objectif sur le champ de bataille. Tant que cette figurine est à portée de ce pion d'objectif, elle a une caractéristique de Contrôle d'Objectif de 10, une caractéristique de Commandement de 5+ et l'aptitude Insensible à la Douleur 4+."
+					}
+				],
+				"WargearAbilities":[],
+				"Leader":[
+					{
+						"ID":"1",
+						"Name":"Escouade d'Assaut Intercessor"
+					},
+					{
+						"ID":"2",
+						"Name":"Héros de Compagnie"
+					},
+					{
+						"ID":"3",
+						"Name":"Escouade Infernus"
+					},
+					{
+						"ID":"4",
+						"Name":"Escouade Tactique"
+					}
+				],
+				"WargearOption":[],
+				"UnitComposition":{
+					"Composition": [
+						{
+							"Model":[
+								{
+									"ID": "1",
+									"Min" : "1",
+									"Max" : "",
+									"Quantity": "1",
+									"Name" : "Vulkan He'Stan",
+									"Descritpion" : "Héro Épique"
+								}
+							]
+						}
+					],
+					"Wargear": [
+						{
+							"ID":"1",
+							"Text":"Cette figurine est équipée de : pistolet bolter; Gantelet de la Forge; Lance de Vulkan"
+						}
+					],
+					"TablePoints":[
+						{
+							"ID":"1",
+							"Model":[
+								{
+									"ID":"1",
+									"Name": "Vulkan He'Stan",
+									"Count":"1"
+								}
+							],
+							"Points":"85"
+						}
+					]
+				},
+				"KeyWord":"INFANTRIE, PERSONNAGE, HÉROS ÉPIQUE, GRENADES, IMPERIUM, TACTICUS, CAPITAINE, VULKAN HE'STAN"
+
+			},		
+			{
+				"ID":"13",
+				"Name":"Adrax Agatone",
+				"Statistique":[
+				{
+					"ID":"1",
+					"Name":"",
+					"Mouvement":"6",
+					"Thougnes":"4",
+					"Sauvgarde":"2",
+					"Wound":"5",
+					"LeaderShip":"6",
+					"ObjectifControl":"1"
+				}
+				],
+				"InvulnerableSave":"4",
+				"RangedWeapons":[
+					{
+						"ID":"1",
+						"Name":"Drakkis",
+						"Range":"12",
+						"Attack":"D6+3",
+						"SkillStrike":"N/A",
+						"Strength":"4",
+						"ArmorPenetration":"1",
+						"Degat":"1",
+						"Description":"",
+						"KeyWord":[
+							{
+								"ID":"1",
+								"Name":"Ignore le Couvert",
+								"Rule":"Ignore le Couvert"
+							},
+							{
+								"ID":"2",
+								"Name":"Pistolet",
+								"Rule":"Pistolet"
+							},
+							{
+								"ID":"3",
+								"Name":"Torrent",
+								"Rule":"Torrent"
+							}
+						]
+					}
+				],
+				"MeleeWeapons":[
+					{
+						"ID":"1",
+						"Name":"Malleus Noctum",
+						"Range":"Mêlée",
+						"Attack":"5",
+						"SkillStrike":"2",
+						"Strength":"10",
+						"ArmorPenetration":"2",
+						"Degat":"3",
+						"Description":"",
+						"KeyWord":[]
+					}
+				],
+				"CoreRule":[
+					{
+						"ID":"1",
+						"Name":"Meneur",
+						"Rule":"Meneur"
+					}
+				],
+				"DatasheetAbilities":[
+					{
+						"ID":"1",
+						"Name":"Sur l'Enclume",
+						"Description":"Tant que cette figurine mène une unité, à chaque attaque de mêlée d'une figurine de l'unité, vous pouvez relancer le jet de Blessure."
+					},
+					{
+						"ID":"2",
+						"Name":"Seigneur des Pyroclastes",
+						"Description":"Tant qu'une unité ennemie est à Portée d'Engagement de cette figurine, divisez par deux la caractéristique de Contrôle d'Objectif des figurines de l'unité ennemie."
+					}
+				],
+				"WargearAbilities":[],
+				"Leader":[
+					{
+						"ID":"1",
+						"Name":"Escouade d'Assaut Intercessor"
+					},
+					{
+						"ID":"2",
+						"Name":"Escouade de Vétérans Bladeguards"
+					},
+					{
+						"ID":"3",
+						"Name":"Héros de Compagnie"
+					},
+					{
+						"ID":"4",
+						"Name":"Escouade Infernus"
+					},
+					{
+						"ID":"5",
+						"Name":"Escouade Intercessor"
+					},
+					{
+						"ID":"6",
+						"Name":"Escouade de Vétérans Sternguards"
+					},
+					{
+						"ID":"7",
+						"Name":"Escouade Tactique"
+					}
+				],
+				"WargearOption":[],
+				"UnitComposition":{
+					"Composition": [
+						{
+							"Model":[
+								{
+									"ID": "1",
+									"Min" : "1",
+									"Max" : "",
+									"Quantity": "1",
+									"Name" : "Adrax Agatone",
+									"Descritpion" : "Héro Épique"
+								}
+							]
+						}
+					],
+					"Wargear": [
+						{
+							"ID":"1",
+							"Text":"Cette figurine est équipée de : Drakkis; Malleus Noctum"
+						}
+					],
+					"TablePoints":[
+						{
+							"ID":"1",
+							"Model":[
+								{
+									"ID":"1",
+									"Name": "ADRAX AGATONE",
+									"Count":"1"
+								}
+							],
+							"Points":"95"
+						}
+					]
+				},
+				"KeyWord":"INFANTRIE, PERSONNAGE, HÉROS ÉPIQUE, IMPERIUM, TACTICUS, CAPITAINE, ADRAX AGATONE"
+
+			}
+		]
+	},
+	{
+		"ID":"22",
+		"Name": "Space Marines du Chaos",
+		"Datasheet":[]
+	},
+	{
+		"ID":"23",
+		"Name": "Space Wolves",
+		"Datasheet":[]
+	},
+	{
+		"ID":"24",
+		"Name": "Thousand Sons",
+		"Datasheet":[]
+	},
+	{
+		"ID":"25",
+		"Name": "Tyranids",
+		"Datasheet":[]
+	},
+	{
+		"ID":"26",
+		"Name": "World Eaters",
+        "Datasheet":[]
+	}	
+]}						

@@ -1,0 +1,9 @@
+BASE_URL=https:/$()/dig-dev-dds-01-api.azurewebsites.net/api/
+CLIENT_ID=USR_MONCOMPTE
+CLIENT_SECRET=secret
+SCOPE=AUTH_EFS
+OPENID_SCOPE=openid
+REDIRECT_URI=com.warhammerapp.auth:/$()/oauth_callback
+CMS_URL=https:/$()/cms.efs.sante.fr
+AppInsightInstrumentationKey=InstrumentationKey=22782d9c-9f90-48c3-9c49-4b44b3bc3b30;IngestionEndpoint=https:/$()/francecentral-1.in.applicationinsights.azure.com/;LiveEndpoint=https:/$()/francecentral.livediagnostics.monitor.azure.com/;ApplicationId=ee15550c-4476-4355-a14f-f1c5c7cb2bbb
+MonRdvWebsite=https:/$()/re7.mon-rdv-dondesang.efs.sante.fr/

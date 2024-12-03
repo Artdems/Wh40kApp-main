@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "518012531947",
+    "project_id": "don-de-sang-v5",
+    "storage_bucket": "don-de-sang-v5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518012531947:android:38742707d08abada177aae",
+        "android_client_info": {
+          "package_name": "com.warhammerapp.V5"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsreKA-fl1pl4kC7I5TIm0T8u5xGFvF50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518012531947:android:cb399f70b555b014177aae",
+        "android_client_info": {
+          "package_name": "com.warhammerapp.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsreKA-fl1pl4kC7I5TIm0T8u5xGFvF50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

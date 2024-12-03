@@ -1,0 +1,155 @@
+trigger: none
+variables:
+  - group: Mobile - Dev
+pool:
+  vmImage: 'macOS-13'
+steps:
+  - checkout: self
+    persistCredentials: true
+    clean: true
+  - task: NodeTool@0
+    displayName: 'Install Node'
+    inputs:
+      versionSpec: '21.7.3' # you can use your desired version here
+  - task: InstallAppleCertificate@2
+    displayName: Install Apple Certificate
+    inputs:
+      certSecureFile: 'AppDistributionDonDeSang.p12'
+      certPwd: '$(AppleP12Password)'
+      keychain: 'temp'
+      deleteCert: true
+  - task: InstallAppleProvisioningProfile@1
+    displayName: 'Install Apple Provisioning Profile'
+    inputs:
+      provisioningProfileLocation: 'secureFiles'
+      provProfileSecureFile: 'warhammerapp_V5__App_store.mobileprovision'
+      removeProfile: true
+    condition: or(eq(variables['Build.SourceBranch'], 'refs/heads/master'), eq(variables['Build.SourceBranch'], 'refs/heads/master-legacy'))
+  - task: InstallAppleProvisioningProfile@1
+    displayName: 'Install Apple Provisioning Profile'
+    inputs:
+      provisioningProfileLocation: 'secureFiles'
+      provProfileSecureFile: 'App_donneur_Dev_V5__App_Store.mobileprovision'
+      removeProfile: true
+    condition: or(eq(variables['Build.SourceBranch'], 'refs/heads/develop'), eq(variables['Build.SourceBranch'], 'refs/heads/develop-legacy'))
+  - task: CmdLine@2
+    displayName: 'Uninstall CocoaPods 1.15'
+    inputs:
+      script: 'sudo gem uninstall cocoapods --all'
+      workingDirectory: ''
+  - task: CmdLine@2
+    displayName: 'Install CocoaPods 1.14.3'
+    inputs:
+      script: 'sudo gem install cocoapods -v 1.14.3'
+      workingDirectory: ''
+  - task: CmdLine@2
+    displayName: 'Uninstall CocoaPods 1.15'
+    inputs:
+      script: 'sudo gem uninstall cocoapods --all'
+      workingDirectory: ''
+  - task: CmdLine@2
+    displayName: 'Install CocoaPods 1.14.3'
+    inputs:
+      script: 'sudo gem install cocoapods -v 1.14.3'
+      workingDirectory: ''
+  - task: CmdLine@2
+    displayName: 'npm install'
+    inputs:
+      script: 'npm install --force'
+      workingDirectory: ''
+  - task: CmdLine@2
+    displayName: 'pod install'
+    inputs:
+      script: 'pod install'
+      workingDirectory: 'ios'
+  - task: CmdLine@2
+    displayName: 'version setup'
+    inputs:
+      script: 'xcrun agvtool new-version $(Build.BuildId)'
+      workingDirectory: 'ios'
+  - task: CmdLine@2
+    displayName: 'Apply google services'
+    inputs:
+      script: 'cat GoogleService-Info_Dev.plist > GoogleService-Info.plist'
+      workingDirectory: 'ios'
+    condition: or(eq(variables['Build.SourceBranch'], 'refs/heads/develop'), eq(variables['Build.SourceBranch'], 'refs/heads/develop-legacy'))
+  - task: CmdLine@2
+    displayName: 'Apply google services'
+    inputs:
+      script: 'cat GoogleService-Info_V5.plist > GoogleService-Info.plist'
+      workingDirectory: 'ios'
+    condition: or(eq(variables['Build.SourceBranch'], 'refs/heads/master'), eq(variables['Build.SourceBranch'], 'refs/heads/master-legacy'))
+  - task: CmdLine@2
+    displayName: 'Env file copy'
+    inputs:
+      script: 'echo ".env.dev" > /tmp/envfile'
+      workingDirectory: ''
+    condition: or(eq(variables['Build.SourceBranch'], 'refs/heads/develop'), eq(variables['Build.SourceBranch'], 'refs/heads/develop-legacy'))
+  - task: CmdLine@2
+    displayName: 'Env file copy'
+    inputs:
+      script: 'echo ".env.int" > /tmp/envfile'
+      workingDirectory: ''
+    condition: or(eq(variables['Build.SourceBranch'], 'refs/heads/master'), eq(variables['Build.SourceBranch'], 'refs/heads/master-legacy'))
+  - task: Xcode@5
+    displayName: 'Build IPA'
+    inputs:
+      actions: 'clean build'
+      configuration: 'ReleaseDev'
+      sdk: 'iphoneos'
+      xcWorkspacePath: 'ios/warhammerapp.xcworkspace'
+      xcodeVersion: specifyPath
+      xcodeDeveloperDir: '/Applications/Xcode_15.0.app'
+      scheme: 'warhammerappdev'
+      packageApp: true
+      exportPath: 'output'
+      signingOption: 'manual'
+      signingIdentity: '$(APPLE_CERTIFICATE_SIGNING_IDENTITY)'
+      provisioningProfileUuid: '$(APPLE_PROV_PROFILE_UUID)'
+      args: '-verbose'
+    condition: or(eq(variables['Build.SourceBranch'], 'refs/heads/develop'), eq(variables['Build.SourceBranch'], 'refs/heads/develop-legacy'))
+  - task: Xcode@5
+    displayName: 'Build IPA'
+    inputs:
+      actions: 'clean build'
+      configuration: 'Release'
+      sdk: 'iphoneos'
+      xcWorkspacePath: 'ios/warhammerapp.xcworkspace'
+      xcodeVersion: specifyPath
+      xcodeDeveloperDir: '/Applications/Xcode_15.0.app'
+      scheme: 'warhammerapp'
+      packageApp: true
+      exportPath: 'output'
+      signingOption: 'manual'
+      signingIdentity: '$(APPLE_CERTIFICATE_SIGNING_IDENTITY)'
+      provisioningProfileUuid: '$(APPLE_PROV_PROFILE_UUID)'
+      args: '-verbose'
+    condition: or(eq(variables['Build.SourceBranch'], 'refs/heads/master'), eq(variables['Build.SourceBranch'], 'refs/heads/master-legacy'))
+  - task: CopyFiles@2
+    inputs:
+      SourceFolder: '$(Agent.TempDirectory)'
+      Contents: '**'
+      TargetFolder: '$(Build.ArtifactStagingDirectory)/AgentTempDirectory'
+    displayName: 'Copy Agent.TempDirectory to drop'
+    continueOnError: true
+    condition: failed()
+  - task: PublishPipelineArtifact@1
+    displayName: 'Publish artifact: tmp'
+    inputs:
+      targetPath: '$(Build.artifactStagingDirectory)/AgentTempDirectory'
+      artifactName: 'Agent.TempDirectory'
+    continueOnError: true
+    condition: failed()
+  - task: CopyFiles@2
+    displayName: 'Copy IPA'
+    inputs:
+      contents: '**/*.ipa'
+      targetFolder: '$(build.artifactStagingDirectory)'
+      overWrite: true
+      flattenFolders: true
+  - task: PublishBuildArtifacts@1
+    displayName: 'Publish IPA to artifacts'
+    inputs:
+      PathtoPublish: '$(build.artifactStagingDirectory)'
+      ArtifactName: 'ios'
+      publishLocation: 'Container'
